@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.web", "Ecom.web\Ecom.web.csproj", "{FB107FF1-C7BD-47B1-9153-302B577B16C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Entities", "Ecom.Entities\Ecom.Entities.csproj", "{5DEF42A5-36DB-4A49-A183-969E278BCDD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Database", "Ecom.Database\Ecom.Database.csproj", "{3449B031-E7E1-462E-A779-3B5EB45C3CA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FB107FF1-C7BD-47B1-9153-302B577B16C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB107FF1-C7BD-47B1-9153-302B577B16C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB107FF1-C7BD-47B1-9153-302B577B16C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEF42A5-36DB-4A49-A183-969E278BCDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEF42A5-36DB-4A49-A183-969E278BCDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEF42A5-36DB-4A49-A183-969E278BCDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEF42A5-36DB-4A49-A183-969E278BCDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3449B031-E7E1-462E-A779-3B5EB45C3CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3449B031-E7E1-462E-A779-3B5EB45C3CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3449B031-E7E1-462E-A779-3B5EB45C3CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3449B031-E7E1-462E-A779-3B5EB45C3CA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
