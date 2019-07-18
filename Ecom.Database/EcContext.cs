@@ -9,14 +9,14 @@ using Ecom.Entities;
 
 namespace Ecom.Database
 {
-   public class EcContext:DbContext
+   public class EcContext:DbContext,IDisposable
     {
         public EcContext():base("EcomConnection")
         {
 
 
         }
-        public DbSet<Category> categories { get; set; }
+        public DbSet<Category> Categories { get; set; }
         public DbSet<Product> products { get; set; }
 
     }
